@@ -1,0 +1,19 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "aside header"
+    "aside main";
+    grid-template-columns: auto 1fr;
+}
+
+.header {
+    grid-area: header;
+}
+
+.lateral-menu {
+    grid-area: aside;
+}
+
+.principal {
+    grid-area: main;
+}

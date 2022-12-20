@@ -1,9 +1,10 @@
-@import url(content/header.css);
-@import url(content/Menu/lateral.css);
-@import url(content/Sections/section.css);
-@import url(content/Sections/horizontal.css);
-@import url(content/Sections/vertical.css);
-@import url(content/navbar.css);
+@import url(layout/header.css);
+@import url(layout/Menu/lateral.css);
+@import url(layout/Sections/section.css);
+@import url(layout/Sections/horizontal.css);
+@import url(layout/Sections/vertical.css);
+@import url(layout/navbar.css);
+@import url(layout/grid/index.css);
 
 /*Variaveis globais*/
 :root {
