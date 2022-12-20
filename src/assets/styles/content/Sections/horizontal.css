@@ -1,0 +1,19 @@
+.section-horizontal .card {
+    background: var(--gray);
+    border-radius: 10px;
+}
+
+.section-horizontal .card__img {
+    height: 72px;
+}
+
+.section-horizontal .card__player {
+    width: 164px;
+    height: 4px;
+    background: white;
+    border-radius: 10px;
+}
+
+.section-horizontal .card__button {
+    width: 70px;
+}

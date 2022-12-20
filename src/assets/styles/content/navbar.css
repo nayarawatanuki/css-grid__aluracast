@@ -1,0 +1,34 @@
+.navbar {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--dark-blue);
+    width: 100vw;
+    opacity: 0.9;
+}
+.navbar__items {
+    width: 80%;
+    margin: .5rem auto;
+}
+
+.navbar__item {
+    font-size: .75rem;
+    text-align: center;
+}
+
+.navbar__item::before {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.navbar__item--home::before {
+    content: url("../img/icon-home-mb.svg");
+}
+
+.navbar__item--search::before {
+    content: url("../img/icon-search-mb.svg");
+
+}
+
+.navbar__item--library::before {
+    content: url("../img/icon-library-mb.svg");
+}

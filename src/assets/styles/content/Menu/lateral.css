@@ -1,0 +1,51 @@
+.lateral-menu {
+    background-color: var(--dark-blue);
+    padding: 2.5rem .5rem 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+    width: 230px;
+}
+
+.lateral-menu__link::before  {
+    padding-left: 1rem;
+    padding-right: .5rem;
+    vertical-align: middle;
+}
+
+.lateral-menu__link {
+    font-family: var(--text-font);
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: .5rem;
+}
+
+.active {
+    background-color: var(--medium-blue);
+    border-radius: 5px;
+    padding: .75rem 0;
+}
+
+.lateral-menu__link--home::before {
+    content: url("../../../img/icon-home.svg");
+}
+
+.lateral-menu__link--search::before {
+    content: url("../../../img/icon-search.svg");
+}
+
+.lateral-menu__link--library::before {
+    content: url("../../../img/icon-library.svg");
+}
+
+.lateral-menu__playlist {
+    text-transform: uppercase;
+    padding-left: 1rem;
+}
+
+.lateral-menu__link--playlist::before {
+    content: url("../../../img/icon-add_box.svg");
+}
+
+.lateral-menu__link--podcasts::before {
+    content: url("../../../img/icon-stars.svg");
+}

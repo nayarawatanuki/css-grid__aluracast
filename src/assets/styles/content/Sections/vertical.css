@@ -1,0 +1,13 @@
+.section-vertical .card {
+    background: var(--gray);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.section-vertical .card__img {
+    height: 133px;
+    margin-bottom: .5rem;
+}
+.section-vertical .card__subtitle {
+    margin-top: .75rem;
+}

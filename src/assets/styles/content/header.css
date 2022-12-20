@@ -1,0 +1,7 @@
+.header {
+    padding-top: 2.5rem;
+}
+
+.header__button:nth-of-type(1) {
+    margin-right: 1rem;
+}

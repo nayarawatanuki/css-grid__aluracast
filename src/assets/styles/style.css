@@ -1,0 +1,33 @@
+@import url(content/header.css);
+@import url(content/Menu/lateral.css);
+@import url(content/Sections/section.css);
+@import url(content/Sections/horizontal.css);
+@import url(content/Sections/vertical.css);
+@import url(content/navbar.css);
+
+/*Variaveis globais*/
+:root {
+    --dark-blue: #041833;
+    --medium-blue: #154580;
+    --blue-gradient: linear-gradient(180deg, var(--medium-blue) 0%, var(--dark-blue) 100%);
+    --mint-green: #84EEC1;
+    --gray: rgba(196, 196, 196, 0.2);
+    --text-color: #ffffff;
+    --text-font: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--text-color);
+    background: var(--blue-gradient);
+    font-family: var(--text-font);
+}
+
+.container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    
+}
