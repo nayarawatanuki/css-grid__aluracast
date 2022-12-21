@@ -1,0 +1,31 @@
+/* Section horizontal */
+.section-horizontal .card {
+    column-gap: 1.25rem;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.section-horizontal .card__img {
+    /*grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;*/ 
+    grid-area: 1/1/4/2;
+}
+
+.section-horizontal .card__button {
+    grid-column: 3/4;
+    grid-row: 1/4;
+}
+
+.section-horizontal .card__title {
+    align-self: end;
+}
+
+
+/* Section vertical */
+.section-vertical .card {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+

@@ -1,0 +1,49 @@
+@import url(grid/footer.css);
+
+.footer {
+    background-color: var(--medium-blue);
+    bottom: 0;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+}
+
+/* Genericos como playbar, button, etc) */
+.footer__playbar {
+    background-color: var(--text-color);
+    border-radius: 10px;
+    height: 4px;
+    opacity: 0.9;
+    position: relative;
+}
+
+.footer__playbar div {
+    background-color: var(--text-color);
+    border-radius: 10px;
+    height: 4px;
+    opacity: 0.35;
+    position: absolute;
+    top: 0;
+}
+
+.footer__time {
+    font-size: .75rem;
+}
+
+.playbar__container--reproduction, 
+.footer__playbar--reproduction div {
+    width: 37vw
+}
+
+.footer__playbar--reproduction {
+    width: 25vw;
+}
+
+.playbar__container--volume, 
+.footer__playbar--volume div  {
+    width: 8vw;
+}
+
+.footer__playbar--volume {
+    width: 4vw;
+}

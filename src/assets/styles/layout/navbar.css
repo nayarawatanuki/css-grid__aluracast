@@ -1,13 +1,15 @@
+@import url(grid/navbar.css);
+
 .navbar {
-    position: fixed;
     bottom: 0;
     background-color: var(--dark-blue);
-    width: 100vw;
     opacity: 0.9;
+    position: fixed;
+    width: 100vw;
 }
 .navbar__items {
-    width: 80%;
     margin: .5rem auto;
+    width: 80%;
 }
 
 .navbar__item {
@@ -21,14 +23,14 @@
 }
 
 .navbar__item--home::before {
-    content: url("../img/icon-home-mb.svg");
+    content: url("../../img/icon-home-mb.svg");
 }
 
 .navbar__item--search::before {
-    content: url("../img/icon-search-mb.svg");
+    content: url("../../img/icon-search-mb.svg");
 
 }
 
 .navbar__item--library::before {
-    content: url("../img/icon-library-mb.svg");
+    content: url("../../img/icon-library-mb.svg");
 }

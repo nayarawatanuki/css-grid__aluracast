@@ -1,20 +1,35 @@
-@import url(layout/header.css);
-@import url(layout/Menu/lateral.css);
-@import url(layout/Sections/section.css);
-@import url(layout/Sections/horizontal.css);
-@import url(layout/Sections/vertical.css);
-@import url(layout/navbar.css);
 @import url(layout/grid/index.css);
+
+@import url(layout/header.css);
+@import url(layout/menu.css);
+@import url(layout/navbar.css);
+@import url(layout/section.css);
+@import url(layout/card.css);
+@import url(layout/footer.css);
+
+/*Reset*/
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    background: transparent;
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    padding: 0px;
+}
 
 /*Variaveis globais*/
 :root {
     --dark-blue: #041833;
-    --medium-blue: #154580;
-    --blue-gradient: linear-gradient(180deg, var(--medium-blue) 0%, var(--dark-blue) 100%);
-    --mint-green: #84EEC1;
+    --gradient-blue: linear-gradient(180deg, var(--medium-blue) 0%, var(--dark-blue) 100%);
     --gray: rgba(196, 196, 196, 0.2);
-    --text-color: #ffffff;
+    --medium-blue: #154580;
+    --mint-green: #84EEC1;
     --text-font: 'Open Sans', sans-serif;
+    --text-color: #FFFFFF;
 }
 
 * {
@@ -22,13 +37,12 @@
 }
 
 body {
+    background: var(--gradient-blue);
     color: var(--text-color);
-    background: var(--blue-gradient);
     font-family: var(--text-font);
 }
 
 .container {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-    
 }
