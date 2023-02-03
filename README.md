@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Aluracast" src="https://raw.githubusercontent.com/nayarawatanuki/css-grid__aluracast/main/src/assets/img/readme/Aluracast_cover.png"/>
+  <img alt="Aluracast" src="https://raw.githubusercontent.com/nayarawatanuki/css-grid__aluracast/main/src/assets/img/readme/Aluracast_cover.png#vitrinedev"/>
 </h1>
 
 ### Índice
@@ -18,7 +18,7 @@
 O projeto **[AluraCast](https://nayarawatanuki.github.io/css-grid__aluracast/)**, é uma proposta de página web para podcasts. 
 Esse projeto contém o objetivo de aprender a fazer uma página totalmente responsiva, suportando todas as resoluções e dispositivos.
 
-</br>Desenvolvido para o curso de **CSS: CONSTRUINDO LAYOUTS COM GRID** da platforma [Alura](https://www.alura.com.br/).
+</br>Desenvolvido para o curso de **CSS: CONSTRUINDO LAYOUTS COM GRID** da plataforma [Alura](https://www.alura.com.br/).
 
 </br>
 
